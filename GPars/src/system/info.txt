@@ -1,0 +1,15 @@
+I tried to solve the following problem:
+
+
+There is a list of users.
+Each User has a sequence/list of Places he has visited in the past 
+A place in the Sequence is represented by just an id(int). So one place can occur several times in the sequence.
+
+Now I want to determine how often each place has been visited.
+ The main requirement is to exploit parallelism.
+How can I improve the Code? Any better ideas. I compare concurrency frameworks and want to do little benchmarking 
+(I know that is very difficult on the JVM) but I am very new to Groovy, so I want to ensure the code is good (fast).
+
+Thank you.
+
+
