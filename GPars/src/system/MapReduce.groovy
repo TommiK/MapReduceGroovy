@@ -17,7 +17,7 @@ createUser(userlist,10,sequenceA)
 def createUser(userlist,number,sequence){
 	number.times{userlist << new User("id",sequence)}
 }
-
+//-------------------From Here------------------------------
 def mapreduce(arg){
 	GParsPool.withPool{
 		return arg.parallel.map {
@@ -31,7 +31,7 @@ def mapreduce(arg){
 		}
 	}
 }
-
+//--------------------To Here-----------------------------
 def start=System.currentTimeMillis();
 //println mapreduce(userlist)
 mapreduce(userlist)
